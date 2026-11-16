@@ -1,16 +1,16 @@
 # mcp-currents
 
-Currents MCP — wraps the Currents API (currentsapi.services)
+Unofficial Currents MCP — wraps the Currents API (currentsapi.services)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1863+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `latest_news` | Get the most recent global news articles from Currents (70k+ sources). Filter by language and category. Example: latest_news({ language: "en", category: "technology", limit: 15 }) |
-| `search_news` | Search global news by keyword across Currents (70k+ sources). Filter by language, category, country, and date range. Example: search_news({ keywords: "artificial intelligence", language: "en", limit: 15 }) |
-| `list_categories` | List the news category labels supported by Currents (e.g. technology, business, world, sports). Example: list_categories({}) |
+| `currents_latest_news` | Get the most recent global news articles from Currents (70k+ sources). Filter by language and category. Example: latest_news({ language: "en", category: "technology", limit: 15 }) |
+| `currents_search_news` | Search global news by keyword across Currents (70k+ sources). Filter by language, category, country, and date range. Example: search_news({ keywords: "artificial intelligence", language: "en", limit: 15 }) |
+| `currents_list_categories` | List the news category labels supported by Currents (e.g. technology, business, world, sports). Example: list_categories({}) |
 
 ## Quick Start
 
@@ -56,7 +56,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1863+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

@@ -1,6 +1,6 @@
 [
   {
-    "name": "latest_news",
+    "name": "currents_latest_news",
     "description": "Get the most recent global news articles from Currents (70k+ sources). Filter by language and category. Example: latest_news({ language: \"en\", category: \"technology\", limit: 15 })",
     "inputSchema": {
       "type": "object",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "name": "search_news",
+    "name": "currents_search_news",
     "description": "Search global news by keyword across Currents (70k+ sources). Filter by language, category, country, and date range. Example: search_news({ keywords: \"artificial intelligence\", language: \"en\", limit: 15 })",
     "inputSchema": {
       "type": "object",
@@ -70,7 +70,7 @@
     }
   },
   {
-    "name": "list_categories",
+    "name": "currents_list_categories",
     "description": "List the news category labels supported by Currents (e.g. technology, business, world, sports). Example: list_categories({})",
     "inputSchema": {
       "type": "object",

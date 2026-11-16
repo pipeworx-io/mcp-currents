@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-currents",
-  "version": "0.2.1",
-  "description": "Currents MCP — wraps the Currents API (currentsapi.services)",
+  "version": "0.2.2",
+  "description": "Unofficial Currents MCP — wraps the Currents API (currentsapi.services)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "currents",
     "gatewaySlug": "currents",
-    "sourceHash": "v1-78fea81b628784e9463644dbf4fb2c76418788ca1e70231c42e78bc544d813de",
-    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
+    "sourceHash": "v1-c67aebb0ce5a912c9bac26efc72a2c3ead5dc27dfc009f354eac45d0b99d5cec",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }
